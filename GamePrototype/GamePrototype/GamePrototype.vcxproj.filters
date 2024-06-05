@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{649162f2-0508-482b-91b3-222b743915cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes">
+      <UniqueIdentifier>{1abfc637-ac25-4f3a-92cd-66918c95431b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Obstacles">
+      <UniqueIdentifier>{eb89f4d3-3e97-41c7-a885-d95f1ce1d16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Obstacles">
+      <UniqueIdentifier>{adc50580-c4f8-47c1-ab6f-f32782bf0953}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstaclesManager.cpp">
+      <Filter>Source Files\Classes\Obstacles</Filter>
+    </ClCompile>
+    <ClCompile Include="Allergies.cpp">
+      <Filter>Source Files\Classes\Obstacles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstaclesManager.h">
+      <Filter>Header Files\Classes\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Allergies.h">
+      <Filter>Header Files\Classes\Obstacles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
